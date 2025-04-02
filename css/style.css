@@ -39,6 +39,10 @@ footer p {
     text-align: center; /* Centered text */
 }
 
+div {
+    margin-bottom: 1.375rem; /* Margin for spacing */
+}
+
 /** Styling the navigation bar */
 nav {
     background-color: #30303a;
