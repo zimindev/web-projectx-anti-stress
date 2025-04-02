@@ -3,31 +3,9 @@
 
 /*? Applying fonts */
 
-/** Main font for body text */
-body {
-    font-family: 'Montserrat', sans-serif;
-}
-
-/** Font for main headings */
-h1 {
-    font-family: 'Pacifico', cursive;
-    font-size: 2.5em; /* Adjusted size for better visibility */
-    color: #27AE60; /* Darker color for better contrast */
-    text-align: center; /* Centered for a more appealing look */
-}
-
-/** Font for subheadings */
-h2 {
-    font-family: 'Dancing Script', cursive;
-}
-
-/** Font for paragraphs */
-p {
-    font-family: 'Caveat', cursive;
-}
-
 /** Styling the body */
 body {
+    font-family: 'Montserrat', sans-serif; /* Default font for the body */
     background-color: #111519; /* Light grey background */
     color: #979797; /* Dark grey text color */
     margin: 0;
@@ -82,5 +60,24 @@ a {
 }
 
 a:hover {
-    color: #0b4980; /* Change color on hover */
+    color: #b3ff00; /* Change color on hover */
+}
+
+
+/** Font for main headings */
+h1 {
+    font-family: 'Pacifico', cursive;
+    font-size: 2.5em; /* Adjusted size for better visibility */
+    color: #27AE60; /* Darker color for better contrast */
+    text-align: center; /* Centered for a more appealing look */
+}
+
+/** Font for subheadings */
+h2 {
+    font-family: 'Dancing Script', cursive;
+}
+
+/** Font for paragraphs */
+p {
+    font-family: 'Caveat', cursive;
 }
