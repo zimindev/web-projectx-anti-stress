@@ -47,12 +47,12 @@ div {
 /** Styling the navigation bar */
 nav {
     background-color: #30303a;
-    padding: 10px;
+    padding: 1.25rem; /* Padding for the navigation bar */
+    margin-bottom: 1.9375rem;
     text-align: center;
     border-radius: .625rem;
-    margin: 0 0 .9375rem 0; /* Margin for spacing */
     position: sticky;
-    top: 2px; /* Sticky positioning */
+    top: 0rem  ; /* Stick to the top of the viewport */
     z-index: 9999; /* Ensure it stays on top */
     box-shadow: 4px 4px 14px 4px rgba(96, 255, 141, 0.098); /* Легка тінь */
 }
