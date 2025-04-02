@@ -52,7 +52,7 @@ nav {
     border-radius: .625rem;
     margin: 0 0 .9375rem 0; /* Margin for spacing */
     position: sticky;
-    top: .25rem; /* Sticky positioning */
+    top: 2px; /* Sticky positioning */
     z-index: 9999; /* Ensure it stays on top */
     box-shadow: 4px 4px 14px 4px rgba(96, 255, 141, 0.098); /* Легка тінь */
 }
@@ -97,6 +97,7 @@ hr {
     height: 1px; /* Set height */
     background-color: #27AE60; /* Green color for the line */
     margin: 1.25rem auto; /* Centered with auto margins */
+    z-index: 1; /* Ensure it stays on top */    
 }
 
 /** Styling the video section */
