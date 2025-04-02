@@ -40,6 +40,7 @@ header {
     background-color: #1E1E2F; /* Darker header background */
     padding: 20px;
     text-align: center;
+    display: inline;
     border-radius: .4375rem; /* Rounded corners */
     position: relative; /* Relative positioning for header */
 }
@@ -53,7 +54,7 @@ nav {
     position: sticky;
     top: .25rem; /* Sticky positioning */
     z-index: 9999; /* Ensure it stays on top */
-    box-shadow: 4px 4px 4px 4px rgba(96, 255, 141, 0.098); /* Легка тінь */
+    box-shadow: 4px 4px 14px 4px rgba(96, 255, 141, 0.098); /* Легка тінь */
 }
 
 
