@@ -11,6 +11,9 @@ body {
 /** Font for main headings */
 h1 {
     font-family: 'Pacifico', cursive;
+    font-size: 2.5em; /* Adjusted size for better visibility */
+    color: #27AE60; /* Darker color for better contrast */
+    text-align: center; /* Centered for a more appealing look */
 }
 
 /** Font for subheadings */
@@ -22,4 +25,13 @@ h2 {
 p {
     font-family: 'Caveat', cursive;
 }
+
 /** Styling the body */
+body {
+    background-color: #111519; /* Light grey background */
+    color: #979797; /* Dark grey text color */
+    margin: 0;
+    padding: 20px;
+    font-size: 16px;
+    line-height: 1.6;
+}
