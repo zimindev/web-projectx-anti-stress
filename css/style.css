@@ -49,10 +49,10 @@ nav {
     padding: 10px;
     text-align: center;
     border-radius: .625rem;
-    margin: 0.75rem 0 0 0; /* Залишити відступи згори */
+    margin: 0.75rem 0 0 0; /* Margin for spacing */
     position: sticky;
-    top: 0; /* Приліпає до верхньої частини екрану */
-    z-index: 9999; /* Для забезпечення видимості поверх інших елементів */
+    top: .25rem; /* Sticky positioning */
+    z-index: 9999; /* Ensure it stays on top */
     box-shadow: 4px 4px 4px 4px rgba(96, 255, 141, 0.098); /* Легка тінь */
 }
 
