@@ -50,7 +50,7 @@ nav {
     padding: 10px;
     text-align: center;
     border-radius: .625rem;
-    margin: 0.75rem 0 0 0; /* Margin for spacing */
+    margin: 0 0 .9375rem 0; /* Margin for spacing */
     position: sticky;
     top: .25rem; /* Sticky positioning */
     z-index: 9999; /* Ensure it stays on top */
@@ -101,10 +101,10 @@ hr {
 
 /** Styling the video section */
 iframe {
-    width: 37.5rem; /* Робить відео адаптивним */
-    max-width: 50rem; /* Максимальна ширина */
-    height: 28.125rem; /* Фіксована висота */
-    border-radius: .625rem; /* Закруглені кути */
+    width: 42.5rem; /* Fixed width */
+    /* max-width: 50rem;  Maximum width */
+    height: 28.125rem; /* Fixed height */
+    border-radius: .625rem; /* Rounded corners */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Тінь для краси */
 }
 
