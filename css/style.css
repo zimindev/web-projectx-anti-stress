@@ -1,0 +1,25 @@
+/*! Importing Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&family=Pacifico&family=Caveat:wght@400;700&family=Montserrat:wght@400;700&display=swap');
+
+/*? Applying fonts */
+
+/** Main font for body text */
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+/** Font for main headings */
+h1 {
+    font-family: 'Pacifico', cursive;
+}
+
+/** Font for subheadings */
+h2 {
+    font-family: 'Dancing Script', cursive;
+}
+
+/** Font for paragraphs */
+p {
+    font-family: 'Caveat', cursive;
+}
+/** Styling the body */
