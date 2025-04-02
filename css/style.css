@@ -96,10 +96,10 @@ hr {
 
 /** Styling the video section */
 iframe {
-    width: 100%; /* Робить відео адаптивним */
-    max-width: 800px; /* Максимальна ширина */
-    height: 450px; /* Фіксована висота */
-    border-radius: 10px; /* Закруглені кути */
+    width: 37.5rem; /* Робить відео адаптивним */
+    max-width: 50rem; /* Максимальна ширина */
+    height: 28.125rem; /* Фіксована висота */
+    border-radius: .625rem; /* Закруглені кути */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Тінь для краси */
 }
 
