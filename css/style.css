@@ -33,9 +33,9 @@ footer {
 }
 footer p {
     margin: 0; /* Remove default margin */
-    color: #b3ff00; /* Green color for footer text */
-    font-family: 'Dancing Script', cursive; /* Font for footer text */
-    font-size: 1.5rem; /* Font size for footer text */
+    color: #b0b0b0; /* Green color for footer text */
+    font-family: Arial, Helvetica, sans-serif; /* Font for footer text */
+    font-size: 1rem; /* Font size for footer text */
     text-align: center; /* Centered text */
 }
 
