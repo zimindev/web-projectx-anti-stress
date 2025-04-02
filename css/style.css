@@ -41,12 +41,21 @@ header {
     padding: 20px;
     text-align: center;
     border-radius: .4375rem; /* Rounded corners */
+    position: relative; /* Relative positioning for header */
 }
 
 nav {
+    background-color: #30303a;
     padding: 10px;
     text-align: center;
+    border-radius: .625rem;
+    margin: 2.75rem 0 0 0; /* Залишити відступи згори */
+    position: sticky;
+    top: 0; /* Приліпає до верхньої частини екрану */
+    z-index: 9999; /* Для забезпечення видимості поверх інших елементів */
+    box-shadow: 4px 4px 4px 4px rgba(0, 255, 72, 0.257); /* Легка тінь */
 }
+
 
 ul {
     list-style-type: none; /* Remove default list styling */
