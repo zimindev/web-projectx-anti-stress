@@ -39,10 +39,10 @@ body {
 header {
     background-color: #1E1E2F; /* Darker header background */
     padding: 20px;
-    text-align: center;
-    display: inline;
     border-radius: .4375rem; /* Rounded corners */
-    position: relative; /* Relative positioning for header */
+    display: flex;
+    justify-content: center; /* Aligns header to the center */        
+    align-items: center; /* Center items vertically */
 }
 
 nav {
