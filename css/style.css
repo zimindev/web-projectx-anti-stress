@@ -111,6 +111,12 @@ h2 {
 
 /** Font for paragraphs */
 p {
-    font-family: 'Caveat', cursive;
+    font-family: 'Montserrat', sans-serif; /* Default font for paragraphs */    
+    font-size: 1rem; /* Adjusted size for better visibility */
+}
+
+.p-cursive {
+    font-family: 'Caveat', cursive; /* Cursive font for specific class */
     font-size: 2.125rem; /* Adjusted size for better visibility */
+    color: #38ec83; /* Green color for specific class */
 }
