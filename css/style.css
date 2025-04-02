@@ -14,6 +14,7 @@ body {
     line-height: 1.6;
 }
 
+/** Styling the header and footer */
 header {
     background-color: #1E1E2F; /* Darker header background */
     padding: 20px;
@@ -23,6 +24,22 @@ header {
     align-items: center; /* Center items vertically */
 }
 
+footer {
+    background-color: #1E1E2F; /* Darker footer background */
+    padding: 20px;
+    border-radius: .4375rem; /* Rounded corners */
+    text-align: center; /* Centered text */
+    margin-top: 1.25rem; /* Margin for spacing */
+}
+footer p {
+    margin: 0; /* Remove default margin */
+    color: #b3ff00; /* Green color for footer text */
+    font-family: 'Dancing Script', cursive; /* Font for footer text */
+    font-size: 1.5rem; /* Font size for footer text */
+    text-align: center; /* Centered text */
+}
+
+/** Styling the navigation bar */
 nav {
     background-color: #30303a;
     padding: 10px;
@@ -52,17 +69,30 @@ li:last-child {
     margin-right: 0;
 }
 
-/* Styling links */
+/** Styling links */
 a {
     text-decoration: none; /* Remove underline */
-    color: #38ec83; /* Green color for links */
+    color: #b3ff00; /* Green color for links */
     transition: color 0.3s ease; /* Smooth transition for hover effect */
 }
 
 a:hover {
-    color: #b3ff00; /* Change color on hover */
+    color: #00e1ff; /* Change color on hover */
 }
 
+/** Styling the main content area */
+main{
+    text-align: center; /* Centered text for main content */
+    margin: 1.25rem auto; /* Centered with auto margins */ 
+}
+
+/** Styling the main heading */
+hr {
+    border: 0; /* Remove default border */
+    height: 1px; /* Set height */
+    background-color: #27AE60; /* Green color for the line */
+    margin: 1.25rem auto; /* Centered with auto margins */
+}
 
 /** Font for main headings */
 h1 {
@@ -74,10 +104,13 @@ h1 {
 
 /** Font for subheadings */
 h2 {
-    font-family: 'Dancing Script', cursive;
+    font-family: Montserrat, sans-serif;
+    font-size: 2.25rem; /* Adjusted size for better visibility */
+    color: #38ec83; /* Green color for subheadings */   
 }
 
 /** Font for paragraphs */
 p {
     font-family: 'Caveat', cursive;
+    font-size: 2.125rem; /* Adjusted size for better visibility */
 }
