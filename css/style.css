@@ -39,6 +39,7 @@ footer p {
     text-align: center; /* Centered text */
 }
 
+/** Styling the div container */
 div {
     margin-bottom: 1.375rem; /* Margin for spacing */
 }
