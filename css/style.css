@@ -35,3 +35,42 @@ body {
     font-size: 16px;
     line-height: 1.6;
 }
+
+header {
+    background-color: #1E1E2F; /* Darker header background */
+    padding: 20px;
+    text-align: center;
+    border-radius: .4375rem; /* Rounded corners */
+}
+
+nav {
+    padding: 10px;
+    text-align: center;
+}
+
+ul {
+    list-style-type: none; /* Remove default list styling */
+    padding: 0;
+}
+
+li {
+    display: inline; /* Display list items inline */
+    margin: 0 15px; /* Space between list items */
+    color: #27AE60; /* Green color for links */
+}
+
+/* Remove margin from last list item */
+li:last-child {
+    margin-right: 0;
+}
+
+/* Styling links */
+a {
+    text-decoration: none; /* Remove underline */
+    color: #38ec83; /* Green color for links */
+    transition: color 0.3s ease; /* Smooth transition for hover effect */
+}
+
+a:hover {
+    color: #00ff1e; /* Change color on hover */
+}
