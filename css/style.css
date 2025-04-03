@@ -67,11 +67,28 @@ li {
     display: inline; /* Display list items inline */
     margin: 0 15px; /* Space between list items */
     color: #27AE60; /* Green color for links */
+    font-size: 16px; /* Size for font */
+    
+}
+
+@media screen and (max-width: 768px) {
+    li {
+        display: inline; /* Display list items inline */
+        margin: 10px 10px; /* Space between list items */
+        text-align: center; /* Text in center */
+        font-size: 14px; /* Size for font */
+    }
 }
 
 /* Remove margin from last list item */
 li:last-child {
     margin-right: 0;
+}
+
+@media screen and (max-width: 768px) {
+li:last-child {
+    margin-right: 0;
+    }
 }
 
 /** Styling links */
@@ -106,7 +123,18 @@ iframe {
     /* max-width: 50rem;  Maximum width */
     height: 28.125rem; /* Fixed height */
     border-radius: .625rem; /* Rounded corners */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Тінь для краси */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Shadow */
+}
+
+@media screen and (max-width: 768px) {
+    iframe {
+        width: 22.5rem; /* Make the width responsive */
+        /* max-width: 22.5rem; Limit the maximum width */
+        height: auto; /* Automatic height adjustment */
+        aspect-ratio: 16 / 9; /* Maintain aspect ratio */
+        border-radius: .625rem; /* Rounded corners */
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Add shadow for aesthetics */
+    }
 }
 
 /** Font for main headings */
@@ -115,6 +143,14 @@ h1 {
     font-size: 2.5em; /* Adjusted size for better visibility */
     color: #27AE60; /* Darker color for better contrast */
     text-align: center; /* Centered for a more appealing look */
+}
+
+@media screen and (max-width: 768px) {
+    h1 {
+        font-size: 1.55em; /* Reduce size for better mobile appearance */
+        text-align: center; /* Keep text centered for consistency */
+        padding: 0.5rem; /* Add some spacing for readability */
+    }
 }
 
 /** Font for subheadings */
